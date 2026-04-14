@@ -1,0 +1,40 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of go coverage tool
+coverage.out
+
+# Vendor dir
+/vendor/
+
+# Build directories
+bin/
+build/
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+tmp/
+*.pid
+
+# Environment variables / config with secrets
+/conf
+.env
+config.yaml
+dev.yml
+
+# Go specific
+*.exe
+*.prof
