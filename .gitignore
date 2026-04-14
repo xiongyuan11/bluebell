@@ -35,6 +35,10 @@ tmp/
 config.yaml
 dev.yml
 *.conf
+*.sh
+*.back
+Dockerfile
+docker-compose.yml
 
 # Go specific
 *.exe
